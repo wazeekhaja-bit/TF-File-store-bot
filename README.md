@@ -26,14 +26,15 @@
 
 These features are in the pipeline, and contributions from the community are welcome!
 
-- [x]<b>Channel Join Request</b>
-  Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
+<b>Channel Join Request</b>
+- [x]Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
 - [x]##Database search<br>
   This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
 - [x]##IN-Built fsub customize<br>
   This feature is used to change the force subscribe button by the Admin while bot was running
 </details>
- 
+
+<details><summary><b> Deploy Details :</b></summary>
 ### Setup
 
 - Add the bot to Database Channel with all permission
@@ -48,6 +49,8 @@ pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
 ````
+</details>
+
 <details><summary><b> Command of Bot :</b></summary>
 ### Admin Commands
 
