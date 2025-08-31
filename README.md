@@ -1,6 +1,6 @@
 <h2><b>File-sharing-Bot</b></h2>
-<img src="https://github.com/Techfreak555/TF-File-store-bot-/plugins/Green Neon Hacking Tutorials YouTube Thumbnail (1).png" >
-<p align="left">
+<center><img src="https://files.catbox.moe/ufzpkn.jpg" ></center>
+<p align="center">
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
   </a> 
@@ -24,7 +24,7 @@
 
 These features are in the pipeline, and contributions from the community are welcome!
 
-- [x] **Channel Join Request**  
+- [x] <b>**Channel Join Request**</b>
   Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
 - [x] **Database search**
   This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
