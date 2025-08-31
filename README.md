@@ -1,5 +1,5 @@
 <h2><b>File-sharing-Bot</b></h2>
-
+<img src="https://github.com/Techfreak555/TF-File-store-bot-/plugins/Green Neon Hacking Tutorials YouTube Thumbnail (1).png" >
 <p align="left">
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
