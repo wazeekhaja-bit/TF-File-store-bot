@@ -1,4 +1,4 @@
-<h2 color="red">File-sharing-Bot</h2>
+<h2><b>File-sharing-Bot</b></h2>
 
 <p align="left">
   <a href="https://www.python.org">
