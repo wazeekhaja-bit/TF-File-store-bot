@@ -1,4 +1,4 @@
-<h2><b>File-sharing-Bot</b></h2>
+<h2 align="Center"><b><i>File-sharing-Bot</i></b></h2>
 <center><img src="https://files.catbox.moe/ufzpkn.jpg" ></center>
 <p align="center">
   <a href="https://www.python.org">
@@ -20,17 +20,17 @@
 - 4 customisable force suscribe buttons
 - To check Separate force subscribe channel 
 
-## What’s Next
+<details>## What’s Next
 
 These features are in the pipeline, and contributions from the community are welcome!
 
-- [x]**Channel Join Request**
+- [x]##Channel Join Request<br>
   Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
-- [x]**Database search**
+- [x]##Database search<br>
   This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
-- [x]**IN-Built fsub customize**
+- [x]##IN-Built fsub customize<br>
   This feature is used to change the force subscribe button by the Admin while bot was running
-
+</details>
  
 ### Setup
 
