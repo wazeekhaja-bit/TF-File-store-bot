@@ -11,6 +11,7 @@
 
 
 ### Features
+
 - Fully customisable.
 - Customisable welcome & Forcesub messages.
 - More than one Posts in One Link.
@@ -20,11 +21,12 @@
 - 4 customisable force suscribe buttons
 - To check Separate force subscribe channel 
 
-<details>## What’s Next
+<details><summary><b> Upcoming Features :</b></summary>
+ ## What’s Next Going to add
 
 These features are in the pipeline, and contributions from the community are welcome!
 
-- [x]##Channel Join Request<br>
+- [x]<b>Channel Join Request</b>
   Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
 - [x]##Database search<br>
   This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
@@ -46,7 +48,7 @@ pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
 ````
-
+<details><summary><b> Command of Bot :</b></summary>
 ### Admin Commands
 
 ```
@@ -62,7 +64,9 @@ python3 main.py
 
 /stats - checking your bot uptime
 ```
+</details>
 
+<details><summary><b> Required Data :</b></summary>
 ### Variables
 
 * `API_HASH` Your API Hash from my.telegram.org
@@ -88,8 +92,9 @@ python3 main.py
 * `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/Techfreak555/TF-File-store-bot/blob/main/README.md#custom_stats'>fillings</a>
 * `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
 * `DATABASE_NAME` Your mongo db session name
+</details>
 
-
+<details><summary><b> Optional Data :</b></summary>
 ### Fillings
 #### START_MESSAGE | FORCE_SUB_MESSAGE
 
@@ -108,6 +113,7 @@ python3 main.py
 
 * `{uptime}` - Bot Uptime
 
+</details>
 
 ### Credits
 
