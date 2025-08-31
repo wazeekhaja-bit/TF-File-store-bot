@@ -28,13 +28,13 @@ These features are in the pipeline, and contributions from the community are wel
 
 
 - [x] **Channel Join Request**
-  Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
+   [ Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.]
 
 - [x]  **Database search**
-  This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
+   [ This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time]
 
 - [x] **IN-Built fsub customize**
-  This feature is used to change the force subscribe button by the Admin while bot was running
+   [ This feature is used to change the force subscribe button by the Admin while bot was running ]
 </details>
 
 <details><summary><b> Deploy Details :</b></summary>
