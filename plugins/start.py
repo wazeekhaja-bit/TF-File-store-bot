@@ -133,16 +133,16 @@ async def not_joined(client: Client, message: Message):
     buttons = []
 
     # Check if the first and second channels are both set
-    if client.invitelink1 is not None and message.from_user.id not in ADMINS and not await is_subscribed1(filter, client, message):
+    if FORCE_SUB_CHANNEL_1 is not None and message.from_user.id not in ADMINS and not await is_subscribed1(filter, client, message):
         buttons.append([InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink1)])
             
-    if client.invitelink2 is not None and message.from_user.id not in ADMINS and not await is_subscribed2(filter, client, message):
+    if FORCE_SUB_CHANNEL_2 is not None and message.from_user.id not in ADMINS and not await is_subscribed2(filter, client, message):
         buttons.append([InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink2)])
         
-    if client.invitelink3 is not None and message.from_user.id not in ADMINS and not await is_subscribed3(filter, client, message):
+    if FORCE_SUB_CHANNEL_3 is not None and message.from_user.id not in ADMINS and not await is_subscribed3(filter, client, message):
         buttons.append([InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink3)])
                   
-    if client.invitelink4 is not None and message.from_user.id not in ADMINS and not await is_subscribed4(filter, client, message):
+    if FORCE_SUB_CHANNEL_4 is not None and message.from_user.id not in ADMINS and not await is_subscribed4(filter, client, message):
         buttons.append([InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink4)])
             
 
