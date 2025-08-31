@@ -26,11 +26,14 @@
 
 These features are in the pipeline, and contributions from the community are welcome!
 
-<b>Channel Join Request</b>
-- [x]Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
-- [x]##Database search<br>
+
+- [x] **Channel Join Request**
+  Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
+
+- [x]  **Database search**
   This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
-- [x]##IN-Built fsub customize<br>
+
+- [x] **IN-Built fsub customize**
   This feature is used to change the force subscribe button by the Admin while bot was running
 </details>
 
@@ -118,6 +121,7 @@ python3 main.py
 
 </details>
 
+<details><summary><b> Credits :</b></summary>
 ### Credits
 
 - Telegram channel 👉<a href="https://t.me/tech_freak_tamil">Click here</a>
@@ -133,6 +137,7 @@ will. Specifically you can redistribute and/or modify it under the terms of the
 published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version. 
 
+</details>
 ##
 
    **Star this Repo if you Liked it ⭐⭐⭐**
