@@ -1,23 +1,24 @@
-<h1><b> File-store-Bot<b></h1>
+<h2 style="text-shadow:0 3px 6px red">File-sharing-Bot</h2>
 
-<p align="center">
+<p align="left">
   <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="150">
-  </a>
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
+  </a> 
 </p>
 
 
-Telegram Bot to store Posts and Documents and it can Access by Special Links.
-I Guess This Will Be Usefull For Many People.....😇. 
+<b><i>Telegram Bot to store Posts and Documents and it can Access by Special Links.</i></b> 
 
 
 ### Features
 - Fully customisable.
 - Customisable welcome & Forcesub messages.
 - More than one Posts in One Link.
-- Can be deployed on heroku directly.
+- Can be deployed on heroku ,koyeb and render.
 - Protect Content to Prevent Forwarding
 - Auto-Delete Files After a Configurable Time
+- 4 customisable force suscribe buttons
+- To check Separate force subscribe channel 
 
 ## What’s Next
 
@@ -25,44 +26,19 @@ These features are in the pipeline, and contributions from the community are wel
 
 - [x] **Channel Join Request**  
   Implement a feature that prompts users to join a specified Telegram channel before accessing the bot's functionalities.
+- [x] **Database search**
+  This feature is used to search file from database by the user and get the file, for security of bot the file should be delete in certain time
+- [x] **IN-Built fsub customize**
+  This feature is used to change the force subscribe button by the Admin while bot was running
 
-
-### How to Contribute
-1. Check the [contribution guidelines](https://github.com/CodeXBotz/File-Sharing-Bot/blob/main/CONTRIBUTING.md) for detailed instructions.  
-2. Pick any feature and create a new issue or comment on an existing one.  
-3. Discuss your implementation plan with maintainers to align your contributions with project goals.  
-
-We encourage all developers to contribute ideas, report bugs, and share improvements. Together, we can make this project even better! 🚀
- 
  
 ### Setup
 
 - Add the bot to Database Channel with all permission
 - Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub 
 
-##
-### Installation
-#### Deploy on Heroku
-**BEFORE YOU DEPLOY ON HEROKU, YOU SHOULD FORK THE REPO AND CHANGE ITS NAME TO ANYTHING ELSE**<br>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
-<a href="https://youtu.be/LCrkRTMkmzE">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
-**Check This Tutorial Video on YouTube for any Help**<br>
-**Thanks to [Erich](https://t.me/ErichDaniken) and his [InFoTel](https://t.me/InFoTel_Group) for this Video**
 
-#### Deploy on Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/1jKLr4)
-
-#### Deploy on Koyeb
-
-The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
-
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/CodeXBotz/File-Sharing-Bot&branch=koyeb&name=filesharingbot)
-
-
-#### Deploy in your VPS
+#### Deploy in your VPS or Commandline
 ````bash
 git clone https://github.com/CodeXBotz/File-Sharing-Bot
 cd File-Sharing-Bot
@@ -102,7 +78,6 @@ python3 main.py
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
 * `AUTO_DELETE_TIME `  Set the time in seconds for automatic file deletion. Default is False, which disables auto-deletion.
-* `JOIN_REQUEST_ENABLED` Optional: Set to "True" to enable join request for the channel. Default is "False".
 
 ### Extra Variables
 
@@ -133,11 +108,6 @@ python3 main.py
 
 * `{uptime}` - Bot Uptime
 
-
-## Support   
-Join Our [Telegram Group](https://www.telegram.dog/codexbotzsupport) For Support/Assistance And Our [Channel](https://www.telegram.dog/codexbotz) For Updates.   
-   
-Report Bugs, Give Feature Requests There..   
 
 ### Credits
 
