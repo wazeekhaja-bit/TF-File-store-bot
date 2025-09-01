@@ -10,20 +10,20 @@ API_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6299192020"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Speedwolf1:speedwolf24689@cluster0.rgfywsf.mongodb.net/")
+DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", ""))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
 
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", ""))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", ""))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "0"))
 
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", ""))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/feb6dd0a1cb8576943c0f.jpg")
 F_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/feb6dd0a1cb8576943c0f.jpg")
@@ -31,7 +31,7 @@ F_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/feb6dd0a1cb8576943c
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "8020")
+PORT = os.environ.get("PORT", "8050")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
