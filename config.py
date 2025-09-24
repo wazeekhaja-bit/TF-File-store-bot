@@ -17,7 +17,7 @@ DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003120381741"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
